@@ -4,8 +4,7 @@ import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { FileText } from "lucide-react"
+// Remove this import entirely since FileText is no longer used
 
 export default function About() {
   const ref = useRef(null)
@@ -24,11 +23,6 @@ export default function About() {
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  }
-
-  const handleDownload = () => {
-    // Create a direct link to the PDF file and force download
-    window.open("/api/download", "_blank")
   }
 
   return (
@@ -55,14 +49,15 @@ export default function About() {
             <div className="h-1 w-20 bg-neon-primary rounded-full"></div>
 
             <p className="text-lg text-gray-300 font-neue-haas">
-              Motivated and adaptable Computer Science undergraduate with hands-on experience in software development
-              and a strong foundation in IT principles. Skilled in troubleshooting, web technologies, and collaborative
-              team environments.
+              Motivated and adaptable Computer Science undergraduate currently building hands-on experience in software
+              development. I have a solid foundation in IT principles and am continuously learning and improving my
+              skills.
             </p>
 
             <p className="text-lg text-gray-300 font-neue-haas">
-              I'm passionate about creating immersive, user-centric web experiences with expertise in React, JavaScript,
-              and modern CSS frameworks. I bring designs to life with clean code and smooth animations.
+              While I'm not yet an expert, I'm knowledgeable in Python, React, JavaScript, and modern CSS frameworks,
+              and I enjoy working on user-centric web applications. I'm passionate about clean, maintainable code and
+              thrive in collaborative environments where I can grow and contribute meaningfully to team goals.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
@@ -77,14 +72,6 @@ export default function About() {
                 <p className="text-gray-400 font-neue-haas">Available for remote work</p>
               </div>
             </div>
-
-            <Button
-              onClick={handleDownload}
-              className="mt-6 bg-transparent border border-neon-primary text-neon-primary hover:bg-neon-primary/10 font-formula-condensed"
-            >
-              <FileText className="mr-2 h-4 w-4" />
-              Download Resume
-            </Button>
           </motion.div>
         </motion.div>
       </div>

@@ -9,8 +9,8 @@ const skills = [
     category: "Frontend",
     icon: <Code className="h-8 w-8" />,
     items: [
-      { name: "JavaScript", level: 90 },
-      { name: "React.js", level: 85 },
+      { name: "JavaScript", level: 64 },
+      { name: "React.js", level: 60 },
       { name: "HTML5", level: 95 },
       { name: "CSS", level: 90 },
       { name: "Bootstrap", level: 85 },
@@ -31,11 +31,11 @@ const skills = [
     category: "Backend",
     icon: <Database className="h-8 w-8" />,
     items: [
-      { name: "Node.js", level: 75 },
-      { name: "MongoDB", level: 70 },
+      { name: "Node.js", level: 25 },
+      { name: "MongoDB", level: 23 },
       { name: "SQL", level: 65 },
       { name: "Python", level: 80 },
-      { name: "REST APIs", level: 75 },
+      { name: "REST APIs", level: 15 },
     ],
   },
   {
