@@ -15,8 +15,8 @@ const projects = [
       "A secure password management application that allows users to store, generate, and manage their passwords in one place with encryption and secure authentication.",
     image: "/images/password-manager.jpg",
     tags: ["Python", "HTML", "CSS", "Bootstrap"],
-    liveUrl: "https://github.com/LeeTadiwarr/Safe-Pass",
-    githubUrl: "https://github.com/LeeTadiwarr/Safe-Pass",
+    liveUrl: "https://github.com/blck04/Safe_Pass",
+    githubUrl: "https://github.com/blck04/Safe_Pass",
   },
   {
     id: 2,
@@ -25,8 +25,8 @@ const projects = [
       "An educational platform that provides courses, quizzes, and learning materials for students with progress tracking, interactive content, and video streaming capabilities.",
     image: "/images/online-learning.png",
     tags: ["HTML", "CSS", "Bootstrap", "Python"],
-    liveUrl: "https://github.com/LeeTadiwarr/Edu-Learn",
-    githubUrl: "https://github.com/LeeTadiwarr/Edu-Learn",
+    liveUrl: "https://github.com/blck04/Edu_learn",
+    githubUrl: "https://github.com/blck04/Edu_learn",
   },
   {
     id: 3,
