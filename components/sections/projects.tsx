@@ -35,7 +35,7 @@ const projects = [
       "A modern, responsive portfolio website showcasing skills, projects, and professional experience with smooth animations and interactive elements.",
     image: "/images/portfolio.png",
     tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-    liveUrl: "https://github.com/blck04/portfolioV0",
+    liveUrl: "https://asherbondo.vercel.app",
     githubUrl: "https://github.com/blck04/portfolioV0",
   },
   {
@@ -172,9 +172,11 @@ export default function Projects() {
         </motion.div>
 
         <div className="text-center mt-12">
-          <Button className="bg-transparent border border-neon-primary text-neon-primary hover:bg-neon-primary/10 font-formula-condensed">
-            View All Projects
-          </Button>
+          <a href="https://github.com/blck04" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-transparent border border-neon-primary text-neon-primary hover:bg-neon-primary/10 font-formula-condensed">
+              View All Projects
+            </Button>
+          </a>
         </div>
       </div>
     </section>
